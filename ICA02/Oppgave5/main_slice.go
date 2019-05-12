@@ -1,9 +1,9 @@
-package main
+﻿package main
 
 import (
 	"fmt"
 
-	slice "github.com/stianbar/ica02/Oppgave-5/slice"
+	slice "github.com/sveggen/IS-105-Gruppe3/ICA02/Oppgave5/slice"
 )
 
 func main() {
