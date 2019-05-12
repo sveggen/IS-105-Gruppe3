@@ -18,7 +18,7 @@ $go test
 
 **Oppgave 4**
 
-Skriv inn følgende kommandoer for å navigere til riktig mappe og teste benchmark på din regnemaskin.
+Skriv inn følgende kommandoer for å navigere til riktig mappe og teste benchmarks på din regnemaskin.
 
 ```
 $cd ICA01/Oppgave 3/Algorithms
