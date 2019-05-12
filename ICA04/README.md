@@ -2,6 +2,7 @@
 
 **Oppgave 3**
 
+
 1) gspeech
 
 For å analysere lydfilen "Jorgen.flac" må følgende kommando brukes:
@@ -10,6 +11,8 @@ For å analysere lydfilen "Jorgen.flac" må følgende kommando brukes:
 $cd ICA04/Oppgave3/gspeech/
 $./speech_rec.sh -i Jorgen.flac --rate 16000
 ```
+
+
 
 2) gospeak
 
@@ -23,6 +26,8 @@ For å kjøre gospeak filen må det gjøres en endring i kildekoden. WiT API nø
 go run gospeak.go
 ```
 
+
+
 3) Google Cloud STT
 For å kunne kjøre speech-to-text.go filen må følgende erstattes med path til egen json prosjektfil
 ```
@@ -33,5 +38,7 @@ og filename må erstattes av path til egen nedlastet .flac fil
 // Viser hvilken fil som skal bli transkribert
 	filename := "/Users/magnusneergaard/Desktop/ICA04-Lydopptak/Jorgen.flac"
 ```
+
+
 
 4)
