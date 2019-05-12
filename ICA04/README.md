@@ -30,9 +30,11 @@ For å kjøre gospeak filen må det gjøres en endring i kildekoden. WiT API nø
 
 3) Google Cloud STT
 For å kunne kjøre speech-to-text.go filen må følgende erstattes med path til egen json prosjektfil
+
 		```
 		option.WithCredentialsFile("/Users/magnusneergaard/Documents/Skole/My-First-Project-89ab7741a22f.json")
 		```
+		
 og filename må erstattes av path til egen nedlastet .flac fil
 		```
 		// Viser hvilken fil som skal bli transkribert
