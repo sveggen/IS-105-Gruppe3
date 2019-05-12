@@ -9,7 +9,7 @@ Dette repositoriet inneholder all kildekoden tilhørende mappeinnleveringen i em
 Du kan laste ned prosjektet ved å bruke følgende kommando i terminalen:
 
 ```
-$ git clone git@github.com:sveggen/IS-105-Gruppe3.git
+$git clone git@github.com:sveggen/IS-105-Gruppe3.git
 ```
 
 **Medlemmer/contributers:**
