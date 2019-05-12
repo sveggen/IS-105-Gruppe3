@@ -1,5 +1,5 @@
 //speech-to-text med ett alternativ
 curl -X POST -u "apikey:AVJRAHLH4cWm3iUsWg0bdjHq-FqHPbZv_HcJMHQRtqNJ" \
 --header "Content-Type: audio/flac" \
---data-binary @/Users/magnusneergaard/Documents/Skole/audio-file.flac \
+--data-binary @/Users/magnusneergaard/Desktop/ICA04-Lydopptak/Jorgen.flac \
 "https://gateway-lon.watsonplatform.net/speech-to-text/api/v1/recognize"
