@@ -52,5 +52,5 @@ curl -X POST -u "apikey:AVJRAHLH4cWm3iUsWg0bdjHq-FqHPbZv_HcJMHQRtqNJ" \
 ```
 samt "--data-binary" path må endres til egen path for .flac fil
 ```
---data-binary @/Users/magnusneergaard/Documents/Skole/audio-file.flac \
+--data-binary @/Users/magnusneergaard/Desktop/ICA04-Lydopptak/Jorgen.flac \
 ```
