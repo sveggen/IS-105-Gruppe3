@@ -1,9 +1,9 @@
 # ICA-04
 
-**Oppgave 3**
+## Oppgave 3
 
 
-1) gspeech
+**1) gspeech**
 
 For å analysere lydfilen "Jorgen.flac" må følgende kommando brukes:
 
