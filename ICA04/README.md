@@ -29,7 +29,7 @@ $ go run gospeak.go
 
 **3) Google Cloud STT**
 
-For å kunne kjøre speech-to-text.go filen må følgende erstattes med path til egen json prosjektfil
+For å kunne kjøre speech-to-text.go filen må følgende erstattes med path til egen JSON-prosjektfil
 
 ```
 option.WithCredentialsFile("/Users/magnusneergaard/Documents/Skole/My-First-Project-89ab7741a22f.json")
