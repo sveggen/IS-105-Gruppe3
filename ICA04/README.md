@@ -2,7 +2,7 @@
 
 **Oppgave 3**
 
-1)
+1) gspeech
 For å kjøre analysere filen "Jorgen.flac" må følgende kommando brukes:
 
 ```
