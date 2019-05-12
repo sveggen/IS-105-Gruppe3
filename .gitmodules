@@ -1,0 +1,3 @@
+[submodule "ICA04/Oppgave3/gospeak/go-speak"]
+	path = ICA04/Oppgave3/gospeak/go-speak
+	url = https://github.com/nicolaifsf/go-speak
