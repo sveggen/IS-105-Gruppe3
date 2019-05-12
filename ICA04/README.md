@@ -14,7 +14,7 @@ $./speech_rec.sh -i Jorgen.flac --rate 16000
 
 
 
-2) gospeak
+**2) gospeak**
 
 Naviger til riktig mappe ved bruk av følgende kommando:
 
@@ -27,15 +27,15 @@ $ go run gospeak.go
 ```
 
 
-3) Google Cloud STT
+**3) Google Cloud STT**
 For å kunne kjøre speech-to-text.go filen må følgende erstattes med path til egen json prosjektfil
 
 ```
 option.WithCredentialsFile("/Users/magnusneergaard/Documents/Skole/My-First-Project-89ab7741a22f.json")
 ```
-		
+
 og filename må erstattes av path til egen nedlastet .flac fil
-		
+
 ```
 // Viser hvilken fil som skal bli transkribert
 	filename := "/Users/magnusneergaard/Desktop/ICA04-Lydopptak/Jorgen.flac"
@@ -43,7 +43,7 @@ og filename må erstattes av path til egen nedlastet .flac fil
 
 
 
-4) IBM Speech to Text
+**4) IBM Speech to Text**
 
 For å kunne transkribere tekst med IBM sin plattform må følgene API key endres til din egen:
 
