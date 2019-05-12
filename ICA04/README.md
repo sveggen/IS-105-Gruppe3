@@ -28,6 +28,7 @@ $ go run gospeak.go
 
 
 **3) Google Cloud STT**
+
 For å kunne kjøre speech-to-text.go filen må følgende erstattes med path til egen json prosjektfil
 
 ```
