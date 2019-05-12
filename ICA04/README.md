@@ -36,6 +36,7 @@ For å kunne kjøre speech-to-text.go filen må følgende erstattes med path til
 		```
 		
 og filename må erstattes av path til egen nedlastet .flac fil
+		
 		```
 		// Viser hvilken fil som skal bli transkribert
 			filename := "/Users/magnusneergaard/Desktop/ICA04-Lydopptak/Jorgen.flac"
