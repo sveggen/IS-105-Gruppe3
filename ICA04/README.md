@@ -43,4 +43,14 @@ og filename må erstattes av path til egen nedlastet .flac fil
 
 
 
-4)
+4) IBM Speech to Text
+
+For å kunne transkribere tekst med IBM sin plattform må følgene API key endres til din egen:
+
+```
+curl -X POST -u "apikey:AVJRAHLH4cWm3iUsWg0bdjHq-FqHPbZv_HcJMHQRtqNJ" \
+```
+samt "--data-binary" path må endres til egen path for .flac fil
+```
+--data-binary @/Users/magnusneergaard/Documents/Skole/audio-file.flac \
+```
