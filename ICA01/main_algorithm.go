@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/jorgenl95/is105-ica01/algorithms"
+	"./algorithms"
 	"fmt"
 )
 

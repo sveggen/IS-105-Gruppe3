@@ -5,9 +5,9 @@ import (
 	"math"
 )
 
-func SumInt8(a, b int) int {
-	if ((math.MinInt8 < a) && (a < math.MaxInt8)){
-		if ((math.MinInt8 < b) && (b < math.MaxInt8)){
+func SumInt8(a, b int8) int8 {
+	if ((math.MinInt8 < a) && (a <= math.MaxInt8)){
+		if ((math.MinInt8 < b) && (b <= math.MaxInt8)){
 			return a + b
 		}
 		fmt.Println("Error: Second value is outside int8 boundaries")
@@ -18,8 +18,8 @@ func SumInt8(a, b int) int {
 }
 
 func SumFloat64(a, b float64) float64 {
-	if ((math.SmallestNonzeroFloat64 < a) && (a < math.MaxFloat64)) {
-		if ((math.SmallestNonzeroFloat64 < b) && (b < math.MaxFloat64)) {
+	if ((math.SmallestNonzeroFloat64 < a) && (a <= math.MaxFloat64)) {
+		if ((math.SmallestNonzeroFloat64 < b) && (b <= math.MaxFloat64)) {
 			return a + b
 		}
 		fmt.Println("Error: Second value is outside float64 boundaries")
