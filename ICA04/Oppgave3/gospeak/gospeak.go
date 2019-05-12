@@ -1,12 +1,11 @@
-package gospeak
+package main
 
-import (speech "github.com/nicolaifsf/go-speak")
-//example
+import(speech "./go-speak")
 
 
 func main(){
   speech.SetWitKey("RLD2DHGWIRNX72FHOZMRNBTGJBGOCEXK") //Wit API key fra sveggen
-  speech.SendWitVoice("audio-file.wav")
+  speech.SendWitVoice("Jorgen.wav")
   
 
 }
