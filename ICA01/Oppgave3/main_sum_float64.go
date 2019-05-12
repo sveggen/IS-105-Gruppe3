@@ -9,18 +9,18 @@ import (
 
 func main() {
 
-	argsNumber, err := strconv.Atoi(os.Args[1])
+	argsNumber, err := strconv.ParseFloat(os.Args[1], 64)
 	if err != nil {
 		fmt.Println("Error occured")
 	}
 
-	argsNumber2, err2 := strconv.Atoi(os.Args[2])
+	argsNumber2, err2 := strconv.ParseFloat(os.Args[2], 64)
 	if err2 != nil {
 		fmt.Println("Error occured")
 	}
 
 
-	tempVar := sum.SumInt8(int8(argsNumber), int8(argsNumber2))
+	tempVar := sum.SumFloat64(float64(argsNumber), float64(argsNumber2))
 
 	fmt.Println(tempVar)
 

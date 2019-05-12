@@ -20,7 +20,7 @@ func main() {
 	}
 
 
-	tempVar := sum.SumInt8(int8(argsNumber), int8(argsNumber2))
+	tempVar := sum.SumInt32(int32(argsNumber), int32(argsNumber2))
 
 	fmt.Println(tempVar)
 
