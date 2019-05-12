@@ -21,7 +21,7 @@ func main() {
 	}
 
 	// Viser hvilken fil som skal bli transkribert
-	filename := "/Users/magnusneergaard/Documents/Skole/audio-file.flac"
+	filename := "/Users/magnusneergaard/Desktop/ICA04-Lydopptak/Jorgen.flac"
 
 	// Leser filen
 	data, err := ioutil.ReadFile(filename)
@@ -33,7 +33,7 @@ func main() {
 	resp, err := client.Recognize(ctx, &speechpb.RecognizeRequest{
 		Config: &speechpb.RecognitionConfig{
 			Encoding:        speechpb.RecognitionConfig_FLAC,
-			SampleRateHertz: 44100,
+			SampleRateHertz: 16000,
 			LanguageCode:    "en-US",
 		},
 		Audio: &speechpb.RecognitionAudio{
